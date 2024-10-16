@@ -1,0 +1,178 @@
+.seller-profile-c1 .seller-profile-r1 .seller-profile-cl1{
+    padding: 0px;
+}
+.seller-profile-c1 .seller-profile-r1 .seller-profile-cl1 img{
+    height: 270px;
+    width: 100%;
+}
+.seller-profile-c1 .seller-profile-r2 .seller-profile-cl1{
+    display: flex;
+}
+.seller-profile-c1 .seller-profile-r2 .seller-profile-cl1 img{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.06);
+}
+.seller-profile-c1 .seller-profile-r2 .seller-profile-cl1 h5{
+    margin-bottom: 0px;
+    line-height: 30px;
+}
+.seller-profile-c1 .seller-profile-r2 .seller-profile-cl1 .stars i{
+    margin-right: 5px;
+    color: white;
+    filter: drop-shadow(0px 0px 1px black);
+}
+.seller-profile-c1 .seller-profile-r2 .seller-profile-cl1 .stars i.hovered,
+.seller-profile-c1 .seller-profile-r2 .seller-profile-cl1 .stars i.selected{
+    cursor: pointer;
+    color: rgba(255, 202, 59, 1);
+    filter: drop-shadow(1px 1px 1px rgba(255, 202, 59, 1));
+}
+.seller-profile-c1 .seller-profile-r2 .seller-profile-cl1 p{
+    font-family: Public Sans;
+    font-size: 15px;
+    margin: 0px;
+    line-height: 30px;
+}
+.seller-profile-c1 .seller-profile-r2 .seller-profile-cl1 button{
+    width: 80px;
+    font-family: Public Sans;
+    font-size: 14px;
+    background-color: transparent;
+    border: 1px solid rgba(195, 195, 197, 1);
+    border-radius: 5px;
+}
+.seller-profile-c1 .seller-profile-r2 .seller-profile-cl1 button:hover{
+    background-color: rgba(255, 202, 59, 1);
+    color: white;
+    transition: 0.3s;
+    border-color: rgba(255, 202, 59, 1);
+}
+.seller-profile-c1 .seller-profile-r2 .seller-profile-cl2{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.seller-profile-c1 .seller-profile-r2 .seller-profile-cl2 label{
+    font-family: Public Sans;
+    font-size: 12px;
+    color: rgba(148, 148, 148, 0.788);
+}
+.seller-profile-c1 .seller-profile-r2 .seller-profile-cl2 h6{
+    color: rgba(148, 148, 148, 0.788);
+}
+.seller-profile-c1 .seller-profile-r2 .seller-profile-cl2 .separater{
+    background-color: rgba(211, 211, 211, 0.55);
+    padding: 0px 0.5px;
+    height: 40px;
+    margin: 0px 20px;
+}
+.seller-profile-c1 .seller-profile-r2 .seller-profile-cl2 button{
+    background-color: transparent;
+    color: rgba(255, 202, 59, 1);
+    border: 1px solid rgba(255, 202, 59, 1);
+    padding: 9px 35px;
+    border-radius: 100px;
+    font-size: 14px;
+}
+.seller-profile-c1 .seller-profile-r2 .seller-profile-cl2 button:hover{
+    background-color: rgba(255, 202, 59, 1);
+    color: white;
+    transition: 0.3s;
+}
+.seller-profile-c1 .seller-profile-r3,
+.seller-profile-c1 .seller-profile-r4,
+.seller-profile-c1 .seller-profile-r5{
+    width: 80%;
+    margin: auto;
+}
+.seller-profile-c1 .seller-profile-r3 .cl .card{
+    border-radius: 10px;
+}
+.seller-profile-c1 .seller-profile-r3 .cl .card:hover{
+    border: 1px solid rgba(255, 196, 0, 0.913);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: 0.8s;
+    transform: translateY(-5px);
+}
+.seller-profile-c1 .seller-profile-r3 .cl .card{
+    overflow: hidden;
+}
+.seller-profile-c1 .seller-profile-r3 .cl .card:hover img{
+    transform: scale(1.05);
+    transition: transform 0.4s ease-in-out;
+}
+.seller-profile-c1 .seller-profile-r3 .cl .card p{
+    font-size: 10px;
+}
+.seller-profile-c1 .seller-profile-r3 .cl{
+    position: relative;
+}
+.seller-profile-c1 .seller-profile-r3 .cl b a{
+    background-color: rgba(255, 196, 0, 0.913);
+    border-radius: 5px;
+    padding: 6px;
+    float: right;
+    display: flex;
+    align-self: center;
+}
+.seller-profile-c1 .seller-profile-r3 .cl .product-action-1{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: flex;
+    width: fit-content;
+}
+.seller-profile-c1 .seller-profile-r3 .cl .product-action-1 a{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(255, 196, 0, 0.913);
+    text-decoration: none;
+}
+.seller-profile-c1 .seller-profile-r3 .cl .product-action-1 a .tooltip{
+    color: #fbb528;
+    margin-bottom: 5px;
+    font-size: 10px;
+    visibility: hidden;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 196, 0, 0.913);
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    white-space: nowrap;
+    transition: opacity 0.5s;
+}
+.seller-profile-c1 .seller-profile-r3 .cl .tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #f8c94c transparent transparent transparent;
+}
+.seller-profile-c1 .seller-profile-r3 .cl .product-action-1 a:hover .tooltip{
+    visibility: visible;
+    opacity: 1;
+}
+.seller-profile-c1 .seller-profile-r4 .seller-profile-cl1 img,
+.seller-profile-c1 .seller-profile-r5 .seller-profile-cl1 img,
+.seller-profile-c1 .seller-profile-r5 .seller-profile-cl2 img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+.bdr{
+    border: 1px solid red;
+}
